@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 450px;
+  background-color: darkgray;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.InputField {
+  width: 350px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin-top: 50px;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.InputField:focus {
+  border: 2px solid red;
+  outline: none;
+}
+
+.title {
+  font-family: Roboto;
+  font-size: 30px;
+  color: black;
+}
+
+.reversed {
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: rebeccapurple;
+  width: 350px;
+  height: 150px;
+  background: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
